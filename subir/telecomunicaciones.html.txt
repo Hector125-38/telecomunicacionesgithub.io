@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de Telecomunicaciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .image-gallery img {
+            width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Historia de las Telecomunicaciones y el Espacio</h1>
+    </header>
+    <div class="content">
+        <p>Las telecomunicaciones han evolucionado desde el telégrafo hasta los satélites que permiten la comunicación en el espacio.</p>
+        <h2>Astronautas en la Historia</h2>
+        <div class="image-gallery">
+            <img src="astronauta1.jpg" alt="Astronauta en el espacio">
+            <img src="astronauta2.jpg" alt="Astronauta en la luna">
+            <img src="satellite.jpg" alt="Satélite en órbita">
+        </div>
+    </div>
+</body>
+</html>
